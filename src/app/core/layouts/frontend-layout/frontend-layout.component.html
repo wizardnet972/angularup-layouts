@@ -1,0 +1,33 @@
+<app-toolbar>
+  <div>Angular UP!</div>
+
+  <span>🔍</span>
+
+  <div style="margin-left: auto"></div>
+
+  <span>🔔</span>
+
+  <span>🔗</span>
+  <span>🔗</span>
+  <span>🔗</span>
+  <span>🔗</span>
+
+  <span>🙋‍♂️</span>
+</app-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened>
+    <app-drawer>
+      <div>🔗</div>
+      <div>🔗</div>
+      <div>🔗</div>
+      <div>🔗</div>
+    </app-drawer>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+  </mat-sidenav-content>
+</mat-sidenav-container>
